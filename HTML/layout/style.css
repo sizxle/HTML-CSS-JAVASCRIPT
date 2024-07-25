@@ -1,0 +1,37 @@
+header{
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+  height: 10vh;
+}
+
+main{
+ display: flex;
+}
+
+#main{
+    background-color: #2ca152;
+    color: white;
+    padding: 20px;
+    height: 75vh;
+    flex: 3;
+}
+
+#secondary{
+    flex: 1;
+    background-color: #e6e6a5;
+    padding: 20px;
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    height: 5vh;
+}
+
+body{
+    box-sizing: border-box;
+    border-collapse:collapse ;
+    margin: 0px;
+}

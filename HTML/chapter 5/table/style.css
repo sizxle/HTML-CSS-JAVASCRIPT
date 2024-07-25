@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    background-color: black;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100vw;
+    background-color: orangered;
+    color: whitesmoke;
+    text-align: center;
+    padding: 80px;
+}
+
+.card{
+    width: 60%;
+    height: 50%;
+    color: black;
+    background-color:white;
+    margin: auto;
+}
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse:collapse ;
+}
+
+td,th{
+    /* border: 1px solid black; */
+}
+
+th{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.text{
+    font-weight: bold;
+}
+
+td{
+    text-align: center;
+}

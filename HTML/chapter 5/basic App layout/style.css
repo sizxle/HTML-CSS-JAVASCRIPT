@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header{
+    width: 100vw;
+    background-color: #6c00d4;
+    padding: 10px;
+    position: fixed;
+}
+
+#header{
+    width: 95%;
+    background-color: #653fe4;
+    padding: 10px;
+    position: fixed;
+    top:0;
+}
+
+.container{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.container li{
+    margin: 0 5px;
+    float: left;
+}
+
+.button{
+    background-color: #5236bc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.float-right{
+    float: right!important;
+    margin-right: 20px!important;
+}
+
+.email{
+    background-color:#a3abb2;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 350px;
+    text-align: center;
+}
+
+
+
+
+.trash{
+    background-color:#d02c5f;
+}
+
+#emails{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    flex:4
+}
+ main{
+    margin-top: 40px;
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+}
+#info{
+    flex: 1;
+    background-color: #e7e9eb;
+    width: 10vw;
+}
+#email-list{
+    background-color: #e7e9eb;
+    overflow: scroll;
+}
+
+#email-list li{
+    list-style-type: none;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+}
+
+#email-view{
+    text-align: center;
+}
+
+.nav-bar{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    width: 5vw;
+    text-align: center;
+}
+
+.container-flex{
+    display: flex;
+}
+section{
+    margin-top: 20px;
+}
